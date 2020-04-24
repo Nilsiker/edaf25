@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79d653e2-1d17-43d2-b1bf-3ba2070ca48c" name="Default Changelist" comment="" />
+    <list default="true" id="79d653e2-1d17-43d2-b1bf-3ba2070ca48c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uppgift3/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uppgift3/Portfolio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uppgift3/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uppgift3/Warner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sem6/uppgift2/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sem6/uppgift2/View.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1az4trVpYcxYGmFNpEQW2JQkhx2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,11 +34,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.SwitchView">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uppgift3.App" />
+      <module name="sem6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uppgift3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uppgift1.GUI" />
       <module name="sem6" />
@@ -47,9 +73,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Warner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uppgift3.Warner" />
+      <module name="sem6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uppgift3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SwitchView" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Warner" />
+        <item itemvalue="Application.View" />
         <item itemvalue="Application.GUI" />
       </list>
     </recent_temporary>
@@ -72,26 +113,30 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="552" y="258" key="#Project_Structure/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587727092372" />
-    <state x="765" y="309" key="#com.intellij.ide.util.MemberChooser" timestamp="1587727769383">
+    <state x="765" y="309" key="#com.intellij.ide.util.MemberChooser" timestamp="1587748091466">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="765" y="309" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587727769383" />
-    <state width="1877" height="219" key="GridCell.Tab.0.bottom" timestamp="1587733123469">
+    <state x="765" y="309" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587748091466" />
+    <state width="1877" height="175" key="GridCell.Tab.0.bottom" timestamp="1587749034613">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587733123469" />
-    <state width="1877" height="219" key="GridCell.Tab.0.center" timestamp="1587733123469">
+    <state width="1877" height="175" key="GridCell.Tab.0.bottom/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587749034613" />
+    <state width="1877" height="175" key="GridCell.Tab.0.center" timestamp="1587749034613">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.0.center/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587733123469" />
-    <state width="1877" height="219" key="GridCell.Tab.0.left" timestamp="1587733123469">
+    <state width="1877" height="175" key="GridCell.Tab.0.center/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587749034613" />
+    <state width="1877" height="175" key="GridCell.Tab.0.left" timestamp="1587749034613">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.0.left/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587733123469" />
-    <state width="1877" height="219" key="GridCell.Tab.0.right" timestamp="1587733123469">
+    <state width="1877" height="175" key="GridCell.Tab.0.left/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587749034613" />
+    <state width="1877" height="175" key="GridCell.Tab.0.right" timestamp="1587749034613">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.0.right/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587733123469" />
+    <state width="1877" height="175" key="GridCell.Tab.0.right/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587749034613" />
+    <state x="656" y="424" key="com.intellij.ide.util.TipDialog" timestamp="1587744629003">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="656" y="424" key="com.intellij.ide.util.TipDialog/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587744629003" />
     <state x="616" y="280" key="run.anything.popup" timestamp="1587727907283">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
