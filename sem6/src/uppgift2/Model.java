@@ -19,6 +19,4 @@ public class Model extends Observable {
     public String state(){
         return state ? "ON" : "OFF";
     }
-
-
 }

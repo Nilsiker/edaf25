@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79d653e2-1d17-43d2-b1bf-3ba2070ca48c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uppgift3/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uppgift3/Portfolio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uppgift3/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uppgift3/Warner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sem6/uppgift1/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sem6/uppgift1/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sem6/uppgift1/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sem6/uppgift1/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sem6/uppgift2/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sem6/uppgift2/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sem6/uppgift2/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sem6/uppgift2/Model.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sem6/uppgift2/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sem6/uppgift2/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uppgift1/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uppgift2/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift2/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uppgift2/klassdiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift2/klassdiagram.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +42,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.View">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uppgift3.App" />
       <module name="sem6" />
@@ -88,9 +91,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.View" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Warner" />
-        <item itemvalue="Application.View" />
         <item itemvalue="Application.GUI" />
       </list>
     </recent_temporary>
@@ -109,34 +112,42 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="258" key="#Project_Structure" timestamp="1587727092372">
+    <state x="552" y="258" key="#Project_Structure" timestamp="1587991747633">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="552" y="258" key="#Project_Structure/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587727092372" />
+    <state x="552" y="258" key="#Project_Structure/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587991747633" />
     <state x="765" y="309" key="#com.intellij.ide.util.MemberChooser" timestamp="1587748091466">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="765" y="309" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587748091466" />
-    <state width="1877" height="175" key="GridCell.Tab.0.bottom" timestamp="1587749034613">
+    <state width="1877" height="152" key="GridCell.Tab.0.bottom" timestamp="1587991795487">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.bottom/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587749034613" />
-    <state width="1877" height="175" key="GridCell.Tab.0.center" timestamp="1587749034613">
+    <state width="1877" height="152" key="GridCell.Tab.0.bottom/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587991795487" />
+    <state width="1877" height="152" key="GridCell.Tab.0.bottom/0.0.1920.1200/1920.853.1920.1080@1920.853.1920.1080" timestamp="1587987982274" />
+    <state width="1877" height="152" key="GridCell.Tab.0.center" timestamp="1587991795486">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.center/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587749034613" />
-    <state width="1877" height="175" key="GridCell.Tab.0.left" timestamp="1587749034613">
+    <state width="1877" height="152" key="GridCell.Tab.0.center/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587991795486" />
+    <state width="1877" height="152" key="GridCell.Tab.0.center/0.0.1920.1200/1920.853.1920.1080@1920.853.1920.1080" timestamp="1587987982274" />
+    <state width="1877" height="152" key="GridCell.Tab.0.left" timestamp="1587991795486">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.left/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587749034613" />
-    <state width="1877" height="175" key="GridCell.Tab.0.right" timestamp="1587749034613">
+    <state width="1877" height="152" key="GridCell.Tab.0.left/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587991795486" />
+    <state width="1877" height="152" key="GridCell.Tab.0.left/0.0.1920.1200/1920.853.1920.1080@1920.853.1920.1080" timestamp="1587987982274" />
+    <state width="1877" height="152" key="GridCell.Tab.0.right" timestamp="1587991795486">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.right/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587749034613" />
-    <state x="656" y="424" key="com.intellij.ide.util.TipDialog" timestamp="1587744629003">
+    <state width="1877" height="152" key="GridCell.Tab.0.right/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587991795486" />
+    <state width="1877" height="152" key="GridCell.Tab.0.right/0.0.1920.1200/1920.853.1920.1080@1920.853.1920.1080" timestamp="1587987982274" />
+    <state x="656" y="424" key="com.intellij.ide.util.TipDialog" timestamp="1587800385299">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="656" y="424" key="com.intellij.ide.util.TipDialog/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587744629003" />
+    <state x="656" y="424" key="com.intellij.ide.util.TipDialog/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587800385299" />
+    <state x="342" y="220" key="new project wizard" timestamp="1587991275268">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="342" y="220" key="new project wizard/0.0.1920.1200/1920.853.1920.1080@0.0.1920.1200" timestamp="1587991275268" />
     <state x="616" y="280" key="run.anything.popup" timestamp="1587727907283">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>

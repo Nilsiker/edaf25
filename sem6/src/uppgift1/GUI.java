@@ -1,8 +1,8 @@
 package uppgift1;
 
-import java.awt.*;
-import java.util.Observable;
-import java.util.Observer;
+        import java.awt.*;
+        import java.util.Observable;
+        import java.util.Observer;
 
 public class GUI extends Frame implements Observer {
     public GUI(Model model){
@@ -12,10 +12,8 @@ public class GUI extends Frame implements Observer {
     @Override
     public void update(Observable o, Object arg) {
         Model model = (Model) o;
-        setTitle(model.state());
+        System.out.println((model.state()));
     }
-
-
 
     public static void main(String[] arg) {
         Model model = new Model();
@@ -27,5 +25,4 @@ public class GUI extends Frame implements Observer {
         model.changeState();
         model.changeState();
     }
-
 }

@@ -31,7 +31,7 @@ public class Lab4 {
         Comparator<PQElement> cmp = Comparator.comparingInt(e -> e.distance);
         Map<Integer, Integer> map = new HashMap<>();
         Set<Integer> visited = new HashSet<>();
-        // TODO(D2): slutför Dijkstras algoritm för att hitta kortaste avstånd start->end.
+
         PriorityQueue<PQElement> pq = new PriorityQueue<>(cmp);
         pq.add(new PQElement(start, 0));
         visited.add(start);
@@ -52,6 +52,7 @@ public class Lab4 {
                     } else {
                         int wDist = map.getOrDefault(w, Integer.MAX_VALUE);
                         if (newDist < wDist) {
+                            pq.remove(w);       // borde lösa sista uppgiften
                             pq.add(new PQElement(w, newDist));
                         }
                     }
@@ -107,15 +108,17 @@ public class Lab4 {
                     int w = e.destination;
                     int newDist = x.distance + e.distance;
                     int wDist = map.get(w);
-                    if (!map.containsKey(w) || newDist < wDist) {
+                    if (newDist < wDist) {
                         map.put(w, newDist);
+                        pq.removeIf((edge) -> edge.node == w);
+                        // man kan istället ha en mängd done, som håller koll på vilka noder som man redan har hittat kortaste vägen till.
                         pq.add(new PQElement(w, newDist));
                         prev.put(w, x.node);
-
                     }
                 }
             }
         }
+
         return new LinkedList<Integer>();
     }
 }
