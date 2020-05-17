@@ -16,7 +16,7 @@ public class Lab5 {
      */
     public static int maxFlow(FlowGraph g, int source, int sink) {
         int count = g.vertexCount();            // no of vertices
-
+        int paths = 0;
         // Graph variables
         int[][] flow = new int[count][count];   // flow[x][y] returns flow in edge x-to-y
         int[][] cap = new int[count][count];    // cap[x][y] returns remaining capacity in edge x-to-y
@@ -27,6 +27,7 @@ public class Lab5 {
         }
 
         while(true){    // dirty...
+            paths++;
             // Queue variables
             int current;                                // current node
             boolean[] visited = new boolean[count];     // visited "set"
@@ -40,7 +41,6 @@ public class Lab5 {
 
             // Find shortest path
             while(!q.isEmpty()){
-                System.out.println(q.size());
                 if(q.peek() == sink){
                     atSink = true;
                     break;
@@ -75,6 +75,7 @@ public class Lab5 {
         for (int i = 0; i < count; i++) {
             maxFlow += flow[source][i];
         }
+
         return maxFlow;
     }
 
@@ -88,13 +89,28 @@ public class Lab5 {
         // Resten av filen består av m rader där varje rad anger en båge i
         // formatet u v c som beskriver en båge från en nod u till v med kapacitet c.
 
-        List<FlowEdge> edges = new ArrayList<>();
-
+        int vertexCount;
+        int edgeCount;
+        FlowEdge[] edges;
 
         Scanner scan = new Scanner(path.toFile());
-        if(scan.hasNextLine()){
 
+        String vCount = scan.nextLine();
+        String eCount = scan.nextLine();
+        vertexCount = Integer.parseInt(vCount);
+        edgeCount = Integer.parseInt(eCount);
+        edges = new FlowEdge[edgeCount];
+
+        for (int i = 0; i < edgeCount; i++) {
+            String edge = scan.nextLine();
+            String[] edgeParts = edge.split(" ");
+            int src = Integer.parseInt(edgeParts[0]);
+            int dest = Integer.parseInt(edgeParts[1]);
+            int cap = Integer.parseInt(edgeParts[2]);
+            if(cap<0) cap = Integer.MAX_VALUE;
+            edges[i] = new FlowEdge(src, dest, cap);
         }
-        return new FlowGraph(2);
+
+        return new FlowGraph(vertexCount, edges);
     }
 }

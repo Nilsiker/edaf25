@@ -26,5 +26,4 @@ public class TestFromFile {
     FlowGraph g = Lab5.loadFlowGraph(Paths.get("rail.txt"));
     assertThat(Lab5.maxFlow(g, 0, g.vertexCount()-1)).isEqualTo(146);
   }
-
 }
