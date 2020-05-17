@@ -1,0 +1,6 @@
+    Påstående       Anledning
+T1  Sant            Sant            A
+T2  Sant            Sant            A
+T3  Falskt          Sant            D
+T4  Falskt          Sant            D
+T5  Sant            Falskt          C

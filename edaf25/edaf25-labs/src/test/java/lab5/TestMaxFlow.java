@@ -44,4 +44,18 @@ public class TestMaxFlow {
     );
     assertThat(Lab5.maxFlow(g, 0, 2)).isEqualTo(13);
   }
+
+  @Test public void test6() {
+    FlowGraph g = new FlowGraph(7,
+            new FlowEdge(0, 1, 4),
+            new FlowEdge(0, 2, 4),
+            new FlowEdge(2, 3, 4),
+            new FlowEdge(1, 3, 4),
+            new FlowEdge(1, 4, 4),
+            new FlowEdge(4, 5, 4),
+            new FlowEdge(5, 6, 4),
+            new FlowEdge(3, 6, 4)
+    );
+    assertThat(Lab5.maxFlow(g, 0, 6)).isEqualTo(8);
+  }
 }
