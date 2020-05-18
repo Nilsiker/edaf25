@@ -30,11 +30,11 @@ public class Lab5 {
             for (int i = sink; i != source; i = pred[i])                        // iterate over path
                 bottleneck = Math.min(bottleneck, residual[pred[i]][i]);        // set bottleneck to smallest residual capacity
 
-            for (int i = sink; i != source; i = pred[i]) {                  // Update residual capacities
-                residual[pred[i]][i] -= bottleneck;                         // Forward edges get subtracted
-                residual[i][pred[i]] += bottleneck;                         // Backwards edges get added
+            for (int i = sink; i != source; i = pred[i]) {                      // Update residual capacities
+                residual[pred[i]][i] -= bottleneck;                             // Forward edges get subtracted
+                residual[i][pred[i]] += bottleneck;                             // Backwards edges get added
             }
-            flow += bottleneck;                                             // add the bottleneck capacity in this path to max flow
+            flow += bottleneck;                                                 // add the bottleneck capacity in this path to max flow
         }
 
         return flow;                                                // When no more augment paths can be found, max flow is found!
